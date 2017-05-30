@@ -1,0 +1,98 @@
+body{
+    width:1024px;
+    height:708px;
+    margin: 25px auto;
+    background-size: 100%;
+    text-align: center;
+    background-image: url(images/Pagina0.jpg);
+    overflow-y: hidden;
+}
+.index{
+    background-image: url(images/cover.jpg);
+    margin: 0px;
+}
+.felicitats{
+    font-size: 40px;
+}
+
+.change_a{
+    bottom: 145px;
+    margin: 0px 30px;
+    display: inline-block;
+    margin-top: 10px;
+	background-color:#c74545;
+	border-radius:28px;
+	border-radius:28px;
+	border-radius:28px;
+	border:1px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px black;
+}
+.change_a:hover {
+	background-color:#bd2a2a;
+}
+.change_a:active {
+	position:relative;
+	top:1px;
+}
+
+.text_box{
+    width: 700px;
+    height: 1000px;
+    margin: 25px auto;
+    vertical-align: middle;
+}
+.pagines{
+    visibility: hidden; /*AMAGAR LES DIVS*/
+    overflow-y: hidden; /*Evitar l'scroll de les divs amagades*/
+}
+.main{
+     width:1024px;
+    height:708px;
+    margin: 0px auto;
+    text-align: center;
+    background-image: url(images/Pagina0.jpg);
+    background-size: 100%;
+}
+.main a{
+    text-decoration: none;
+}
+p{
+    font-size: 23px;
+    color: white;
+    text-shadow: 1px 1px 4px black;
+}
+.aventura_title{
+    color: white;
+    text-shadow: 2px 1px 4px black;
+}
+.crepusculo, .tmsc{
+    width: 40%;
+    height: 18%;
+    margin: 0px 15px;
+    box-shadow: 2px 2px 4px black;
+    border: 1px solid red;
+}
+.main_credits h1{
+    color: white;
+    font-size: 65px;
+    text-shadow: 1px 1px 5px black;
+}
+.main_credits p{
+    font-size: 35px;
+    margin: 25px auto;
+}
+.main_index a{
+    text-decoration: none;
+    font-size: 65px;
+    margin: 400px 0px;
+    position: relative;
+    top: 350px;
+    color: red;
+}
